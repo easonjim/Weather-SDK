@@ -30,6 +30,8 @@ namespace weather
 
         public void ProcessRequest(HttpContext context)
         {
+            context.Response.ContentType = "text/plain";
+
             ComLib.LogLib.Log4NetBase.Log("API调用-时间：" + DateTime.Now.ToString() + " IP：" + context.Request.UserHostAddress + " UserAgent：" + context.Request.UserAgent);
 
             switch (Type)
