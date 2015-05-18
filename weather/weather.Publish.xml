@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<publishData>
+  <publishProfile publishUrl="C:\Users\Jim\Desktop\weather" deleteExistingFiles="True" ftpAnonymousLogin="False" ftpPassiveMode="True" msdeploySite="" msdeploySiteID="" msdeployRemoteSitePhysicalPath="" msdeployAllowUntrustedCertificate="False" msdeploySkipExtraFilesOnServer="True" msdeployMarkAsApp="False" profileName="配置文件1" publishMethod="FileSystem" replaceMatchingFiles="False" userName="" savePWD="False" userPWD="" SelectedForPublish="True">
+    <file relUrl="API.ashx" publishTime="09/21/2013 00:03:20" />
+    <file relUrl="log4net.config" publishTime="09/20/2013 23:30:32" />
+    <file relUrl="bin/ComLib.pdb" publishTime="09/25/2013 08:36:48" />
+    <file relUrl="bin/Newtonsoft.Json.pdb" publishTime="06/06/2013 13:33:36" />
+    <file relUrl="Content/Images/3.jpg" publishTime="09/23/2013 14:52:04" />
+    <file relUrl="bin/weather.dll" publishTime="09/25/2013 08:36:49" />
+    <file relUrl="bin/Newtonsoft.Json.xml" publishTime="06/06/2013 13:33:36" />
+    <file relUrl="Content/Images/9.jpg" publishTime="09/23/2013 14:52:04" />
+    <file relUrl="Content/Images/10.jpg" publishTime="09/23/2013 14:52:04" />
+    <file relUrl="Content/Images/1.jpg" publishTime="09/23/2013 14:52:04" />
+    <file relUrl="Content/Images/7.jpg" publishTime="09/23/2013 14:52:04" />
+    <file relUrl="bin/log4net.dll" publishTime="07/29/2013 11:18:57" />
+    <file relUrl="Content/Images/4.jpg" publishTime="09/23/2013 14:52:04" />
+    <file relUrl="Data/weather.txt" publishTime="09/21/2013 01:31:49" />
+    <file relUrl="bin/Newtonsoft.Json.dll" publishTime="06/06/2013 13:33:36" />
+    <file relUrl="Content/Images/5.jpg" publishTime="09/23/2013 14:52:04" />
+    <file relUrl="Content/Images/6.jpg" publishTime="09/23/2013 14:52:04" />
+    <file relUrl="Global.asax" publishTime="09/21/2013 13:29:33" />
+    <file relUrl="bin/ComLib.dll" publishTime="09/25/2013 08:36:49" />
+    <file relUrl="Content/Images/2.jpg" publishTime="09/23/2013 14:52:04" />
+    <file relUrl="Web.config" publishTime="09/21/2013 22:44:53" />
+    <file relUrl="bin/weather.pdb" publishTime="09/25/2013 08:36:49" />
+    <file relUrl="Default.aspx" publishTime="09/23/2013 02:23:43" />
+    <file relUrl="Content/Images/8.jpg" publishTime="09/23/2013 14:52:04" />
+  </publishProfile>
+</publishData>

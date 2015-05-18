@@ -1,0 +1,191 @@
+2013-09-22 09:00:02 | [6] | WARN  | LogSystem | warn | 系统错误 | 文件不存在。
+2013-09-22 09:00:02 | [6] | WARN  | LogSystem | warn | Host : localhost
+Port : 15726
+User Host Address : ::1
+User Agent : Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0)
+Url : http://localhost:15726/favicon.ico
+Raw Url : /favicon.ico
+Message : 文件不存在。
+Source : System.Web
+StackTrace :    在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+TargetSite : System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+ | 无异常描述
+2013-09-22 09:00:02 | [6] | WARN  | LogSystem | warn | 程序错误 | 无异常描述
+2013-09-22 09:05:40 | [12] | WARN  | LogSystem | warn | API调用-时间：2013/9/22 9:05:40 IP：::1 UserAgent：Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0) | 无异常描述
+2013-09-22 09:05:40 | [12] | WARN  | LogSystem | warn | 调用ResponseID-时间：2013/9/22 9:05:40 | 无异常描述
+2013-09-22 09:05:40 | [12] | WARN  | LogSystem | warn | API响应-时间：2013/9/22 9:05:40 | 无异常描述
+2013-09-22 09:05:40 | [11] | WARN  | LogSystem | warn | 系统错误 | 文件不存在。
+2013-09-22 09:05:40 | [11] | WARN  | LogSystem | warn | Host : localhost
+Port : 15726
+User Host Address : ::1
+User Agent : Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0)
+Url : http://localhost:15726/favicon.ico
+Raw Url : /favicon.ico
+Message : 文件不存在。
+Source : System.Web
+StackTrace :    在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+TargetSite : System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+ | 无异常描述
+2013-09-22 09:05:40 | [11] | WARN  | LogSystem | warn | 程序错误 | 无异常描述
+2013-09-22 09:05:48 | [6] | WARN  | LogSystem | warn | API调用-时间：2013/9/22 9:05:48 IP：::1 UserAgent：Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0) | 无异常描述
+2013-09-22 09:05:48 | [6] | WARN  | LogSystem | warn | 调用GetData-时间：2013/9/22 9:05:48 | 无异常描述
+2013-09-22 09:06:24 | [5] | WARN  | LogSystem | warn | API调用-时间：2013/9/22 9:06:24 IP：::1 UserAgent：Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0) | 无异常描述
+2013-09-22 09:06:24 | [5] | WARN  | LogSystem | warn | 调用ResponseName-时间：2013/9/22 9:06:24 | 无异常描述
+2013-09-22 09:06:24 | [5] | WARN  | LogSystem | warn | API响应-时间：2013/9/22 9:06:24 | 无异常描述
+2013-09-22 09:06:26 | [5] | WARN  | LogSystem | warn | API调用-时间：2013/9/22 9:06:26 IP：::1 UserAgent：Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0) | 无异常描述
+2013-09-22 09:06:26 | [5] | WARN  | LogSystem | warn | 调用GetData-时间：2013/9/22 9:06:26 | 无异常描述
+2013-09-22 09:07:49 | [12] | WARN  | LogSystem | warn | API调用-时间：2013/9/22 9:07:49 IP：::1 UserAgent：Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0) | 无异常描述
+2013-09-22 09:07:49 | [12] | WARN  | LogSystem | warn | 调用GetData-时间：2013/9/22 9:07:49 | 无异常描述
+2013-09-22 09:07:50 | [12] | WARN  | LogSystem | warn | API响应-时间：2013/9/22 9:07:50 | 无异常描述
+2013-09-22 09:08:00 | [6] | WARN  | LogSystem | warn | API调用-时间：2013/9/22 9:08:00 IP：::1 UserAgent：Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0) | 无异常描述
+2013-09-22 09:08:00 | [6] | WARN  | LogSystem | warn | 调用GeSK-时间：2013/9/22 9:08:00 | 无异常描述
+2013-09-22 09:08:04 | [6] | WARN  | LogSystem | warn | API响应-时间：2013/9/22 9:08:04 | 无异常描述
+2013-09-22 09:08:06 | [12] | WARN  | LogSystem | warn | API调用-时间：2013/9/22 9:08:06 IP：::1 UserAgent：Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0) | 无异常描述
+2013-09-22 09:08:06 | [12] | WARN  | LogSystem | warn | 调用GeSK-时间：2013/9/22 9:08:06 | 无异常描述
+2013-09-22 09:08:06 | [12] | WARN  | LogSystem | warn | API响应-时间：2013/9/22 9:08:06 | 无异常描述
+2013-09-22 09:08:10 | [12] | WARN  | LogSystem | warn | API调用-时间：2013/9/22 9:08:10 IP：::1 UserAgent：Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0) | 无异常描述
+2013-09-22 09:08:10 | [12] | WARN  | LogSystem | warn | 调用GetCityInfo-时间：2013/9/22 9:08:10 | 无异常描述
+2013-09-22 09:08:10 | [12] | WARN  | LogSystem | warn | API响应-时间：2013/9/22 9:08:10 | 无异常描述
+2013-09-22 09:09:44 | [6] | WARN  | LogSystem | warn | API调用-时间：2013/9/22 9:09:44 IP：::1 UserAgent：Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0) | 无异常描述
+2013-09-22 09:09:44 | [6] | WARN  | LogSystem | warn | 调用GetData-时间：2013/9/22 9:09:44 | 无异常描述
+2013-09-22 09:10:11 | [10] | WARN  | LogSystem | warn | API调用-时间：2013/9/22 9:10:11 IP：::1 UserAgent：Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0) | 无异常描述
+2013-09-22 09:10:11 | [10] | WARN  | LogSystem | warn | 调用GetData-时间：2013/9/22 9:10:11 | 无异常描述
+2013-09-22 09:10:32 | [10] | WARN  | LogSystem | warn | API调用-时间：2013/9/22 9:10:32 IP：::1 UserAgent：Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0) | 无异常描述
+2013-09-22 09:10:32 | [10] | WARN  | LogSystem | warn | 调用ResponseName-时间：2013/9/22 9:10:32 | 无异常描述
+2013-09-22 09:10:32 | [10] | WARN  | LogSystem | warn | API响应-时间：2013/9/22 9:10:32 | 无异常描述
+2013-09-22 09:10:37 | [6] | WARN  | LogSystem | warn | API调用-时间：2013/9/22 9:10:37 IP：::1 UserAgent：Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0) | 无异常描述
+2013-09-22 09:10:37 | [6] | WARN  | LogSystem | warn | 调用GetData-时间：2013/9/22 9:10:37 | 无异常描述
+2013-09-22 09:10:37 | [6] | WARN  | LogSystem | warn | API响应-时间：2013/9/22 9:10:37 | 无异常描述
+2013-09-22 09:10:40 | [14] | WARN  | LogSystem | warn | API调用-时间：2013/9/22 9:10:40 IP：::1 UserAgent：Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0) | 无异常描述
+2013-09-22 09:10:40 | [14] | WARN  | LogSystem | warn | 调用GetData-时间：2013/9/22 9:10:40 | 无异常描述
+2013-09-22 09:11:13 | [6] | WARN  | LogSystem | warn | API调用-时间：2013/9/22 9:11:13 IP：::1 UserAgent：Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0) | 无异常描述
+2013-09-22 09:11:13 | [6] | WARN  | LogSystem | warn | 调用跳转全国雷达-时间：2013/9/22 9:11:13 | 无异常描述
+2013-09-22 09:11:35 | [6] | WARN  | LogSystem | warn | API调用-时间：2013/9/22 9:11:35 IP：::1 UserAgent：Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0) | 无异常描述
+2013-09-22 09:11:35 | [6] | WARN  | LogSystem | warn | 调用跳转实时天气详情-时间：2013/9/22 9:11:35 | 无异常描述
+2013-09-22 09:11:59 | [6] | WARN  | LogSystem | warn | API调用-时间：2013/9/22 9:11:59 IP：::1 UserAgent：Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0) | 无异常描述
+2013-09-22 09:11:59 | [6] | WARN  | LogSystem | warn | 调用GetData-时间：2013/9/22 9:11:59 | 无异常描述
+2013-09-22 09:11:59 | [6] | WARN  | LogSystem | warn | API响应-时间：2013/9/22 9:11:59 | 无异常描述
+2013-09-22 09:12:05 | [6] | WARN  | LogSystem | warn | API调用-时间：2013/9/22 9:12:05 IP：::1 UserAgent：Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0) | 无异常描述
+2013-09-22 09:12:05 | [6] | WARN  | LogSystem | warn | 调用GetData-时间：2013/9/22 9:12:05 | 无异常描述
+2013-09-22 09:12:05 | [6] | WARN  | LogSystem | warn | API响应-时间：2013/9/22 9:12:05 | 无异常描述
+2013-09-22 09:12:14 | [5] | WARN  | LogSystem | warn | API调用-时间：2013/9/22 9:12:14 IP：::1 UserAgent：Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0) | 无异常描述
+2013-09-22 09:12:14 | [5] | WARN  | LogSystem | warn | 调用GetData-时间：2013/9/22 9:12:14 | 无异常描述
+2013-09-22 09:12:15 | [5] | WARN  | LogSystem | warn | API响应-时间：2013/9/22 9:12:15 | 无异常描述
+2013-09-22 09:12:25 | [6] | WARN  | LogSystem | warn | API调用-时间：2013/9/22 9:12:25 IP：::1 UserAgent：Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0) | 无异常描述
+2013-09-22 09:12:56 | [6] | WARN  | LogSystem | warn | API调用-时间：2013/9/22 9:12:56 IP：::1 UserAgent：Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0) | 无异常描述
+2013-09-22 09:13:00 | [5] | WARN  | LogSystem | warn | API调用-时间：2013/9/22 9:13:00 IP：::1 UserAgent：Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0) | 无异常描述
+2013-09-22 09:13:00 | [5] | WARN  | LogSystem | warn | API响应-时间：2013/9/22 9:13:00 | 无异常描述
+2013-09-22 09:13:01 | [10] | WARN  | LogSystem | warn | API调用-时间：2013/9/22 9:13:01 IP：::1 UserAgent：Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0) | 无异常描述
+2013-09-22 09:14:23 | [5] | WARN  | LogSystem | warn | API调用-时间：2013/9/22 9:14:23 IP：::1 UserAgent：Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0) | 无异常描述
+2013-09-22 09:14:23 | [5] | WARN  | LogSystem | warn | 调用GetData-时间：2013/9/22 9:14:23 | 无异常描述
+2013-09-22 09:15:14 | [6] | WARN  | LogSystem | warn | API调用-时间：2013/9/22 9:15:14 IP：::1 UserAgent：Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0) | 无异常描述
+2013-09-22 09:15:34 | [10] | WARN  | LogSystem | warn | API调用-时间：2013/9/22 9:15:34 IP：::1 UserAgent：Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0) | 无异常描述
+2013-09-22 09:15:34 | [10] | WARN  | LogSystem | warn | 调用GetData-时间：2013/9/22 9:15:34 | 无异常描述
+2013-09-22 09:16:15 | [6] | WARN  | LogSystem | warn | API调用-时间：2013/9/22 9:16:15 IP：::1 UserAgent：Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0) | 无异常描述
+2013-09-22 09:16:30 | [10] | WARN  | LogSystem | warn | API调用-时间：2013/9/22 9:16:30 IP：::1 UserAgent：Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0) | 无异常描述
+2013-09-22 09:18:00 | [10] | WARN  | LogSystem | warn | API调用-时间：2013/9/22 9:18:00 IP：::1 UserAgent：Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0) | 无异常描述
+2013-09-22 09:18:00 | [10] | WARN  | LogSystem | warn | 调用GetData-时间：2013/9/22 9:18:00 | 无异常描述
+2013-09-22 09:18:03 | [10] | WARN  | LogSystem | warn | API响应-时间：2013/9/22 9:18:03 | 无异常描述
+2013-09-22 09:18:05 | [6] | WARN  | LogSystem | warn | API调用-时间：2013/9/22 9:18:05 IP：::1 UserAgent：Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0) | 无异常描述
+2013-09-22 09:18:05 | [6] | WARN  | LogSystem | warn | API响应-时间：2013/9/22 9:18:05 | 无异常描述
+2013-09-22 09:18:09 | [10] | WARN  | LogSystem | warn | API调用-时间：2013/9/22 9:18:09 IP：::1 UserAgent：Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0) | 无异常描述
+2013-09-22 09:18:09 | [10] | WARN  | LogSystem | warn | 调用GetData-时间：2013/9/22 9:18:09 | 无异常描述
+2013-09-22 09:18:09 | [10] | WARN  | LogSystem | warn | API响应-时间：2013/9/22 9:18:09 | 无异常描述
+2013-09-22 09:18:10 | [6] | WARN  | LogSystem | warn | API调用-时间：2013/9/22 9:18:10 IP：::1 UserAgent：Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0) | 无异常描述
+2013-09-22 09:18:10 | [6] | WARN  | LogSystem | warn | 调用GetData-时间：2013/9/22 9:18:10 | 无异常描述
+2013-09-22 09:18:10 | [6] | WARN  | LogSystem | warn | API响应-时间：2013/9/22 9:18:10 | 无异常描述
+2013-09-22 09:18:12 | [10] | WARN  | LogSystem | warn | API调用-时间：2013/9/22 9:18:12 IP：::1 UserAgent：Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0) | 无异常描述
+2013-09-22 09:18:12 | [10] | WARN  | LogSystem | warn | 调用GetData-时间：2013/9/22 9:18:12 | 无异常描述
+2013-09-22 09:18:13 | [10] | WARN  | LogSystem | warn | API响应-时间：2013/9/22 9:18:13 | 无异常描述
+2013-09-22 09:18:15 | [10] | WARN  | LogSystem | warn | API调用-时间：2013/9/22 9:18:15 IP：::1 UserAgent：Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0) | 无异常描述
+2013-09-22 09:18:15 | [10] | WARN  | LogSystem | warn | 调用GetData-时间：2013/9/22 9:18:15 | 无异常描述
+2013-09-22 09:18:15 | [10] | WARN  | LogSystem | warn | API响应-时间：2013/9/22 9:18:15 | 无异常描述
+2013-09-22 09:18:18 | [10] | WARN  | LogSystem | warn | API调用-时间：2013/9/22 9:18:18 IP：::1 UserAgent：Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0) | 无异常描述
+2013-09-22 09:18:18 | [10] | WARN  | LogSystem | warn | 调用GetData-时间：2013/9/22 9:18:18 | 无异常描述
+2013-09-22 09:18:18 | [10] | WARN  | LogSystem | warn | API响应-时间：2013/9/22 9:18:18 | 无异常描述
+2013-09-22 09:18:22 | [6] | WARN  | LogSystem | warn | API调用-时间：2013/9/22 9:18:22 IP：::1 UserAgent：Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0) | 无异常描述
+2013-09-22 09:18:22 | [6] | WARN  | LogSystem | warn | 调用GetData-时间：2013/9/22 9:18:22 | 无异常描述
+2013-09-22 09:18:23 | [6] | WARN  | LogSystem | warn | API响应-时间：2013/9/22 9:18:23 | 无异常描述
+2013-09-22 09:19:02 | [17] | WARN  | LogSystem | warn | API调用-时间：2013/9/22 9:19:02 IP：::1 UserAgent：Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0) | 无异常描述
+2013-09-22 09:19:02 | [17] | WARN  | LogSystem | warn | 调用GetData-时间：2013/9/22 9:19:02 | 无异常描述
+2013-09-22 09:19:02 | [17] | WARN  | LogSystem | warn | API响应-时间：2013/9/22 9:19:02 | 无异常描述
+2013-09-22 09:19:05 | [10] | WARN  | LogSystem | warn | API调用-时间：2013/9/22 9:19:05 IP：::1 UserAgent：Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0) | 无异常描述
+2013-09-22 09:19:05 | [10] | WARN  | LogSystem | warn | 调用GetCityInfo-时间：2013/9/22 9:19:05 | 无异常描述
+2013-09-22 09:19:06 | [10] | WARN  | LogSystem | warn | API响应-时间：2013/9/22 9:19:06 | 无异常描述
+2013-09-22 09:21:01 | [10] | WARN  | LogSystem | warn | API调用-时间：2013/9/22 9:21:01 IP：::1 UserAgent：Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0) | 无异常描述
+2013-09-22 09:21:05 | [10] | WARN  | LogSystem | warn | 调用GetData-时间：2013/9/22 9:21:05 | 无异常描述
+2013-09-22 09:22:14 | [10] | WARN  | LogSystem | warn | API调用-时间：2013/9/22 9:22:14 IP：::1 UserAgent：Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0) | 无异常描述
+2013-09-22 09:22:14 | [10] | WARN  | LogSystem | warn | 调用GetData-时间：2013/9/22 9:22:14 | 无异常描述
+2013-09-22 09:22:35 | [10] | WARN  | LogSystem | warn | 系统错误 | 未将对象引用设置到对象的实例。
+2013-09-22 09:22:35 | [10] | WARN  | LogSystem | warn | Host : localhost
+Port : 15726
+User Host Address : ::1
+User Agent : Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0)
+Url : http://localhost:15726/api.ashx?method=data&type=location&value=,
+Raw Url : /api.ashx?method=data&type=location&value=,
+Message : 未将对象引用设置到对象的实例。
+Source : ComLib
+StackTrace :    在 ComLib.HttpHelper.GetHttpRequestData(HttpItem objhttpitem) 位置 E:\开发工程\weather\Dependencies\Common\HttpHelper\HttpHelper.cs:行号 104
+   在 ComLib.HttpHelper.GetHtml(HttpItem objhttpItem) 位置 E:\开发工程\weather\Dependencies\Common\HttpHelper\HttpHelper.cs:行号 295
+   在 weather.Weather.GetData(String id, String name, String latitude, String longitude) 位置 E:\开发工程\weather\weather\Weather.Common.cs:行号 30
+   在 weather.API.ProcessRequest(HttpContext context) 位置 E:\开发工程\weather\weather\API.ashx.cs:行号 47
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+TargetSite : ComLib.HttpResult GetHttpRequestData(ComLib.HttpItem)
+ | 无异常描述
+2013-09-22 09:22:35 | [10] | WARN  | LogSystem | warn | 程序错误 | 无异常描述
+2013-09-22 09:22:42 | [15] | WARN  | LogSystem | warn | API调用-时间：2013/9/22 9:22:42 IP：::1 UserAgent：Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0) | 无异常描述
+2013-09-22 09:22:42 | [15] | WARN  | LogSystem | warn | 调用GetData-时间：2013/9/22 9:22:42 | 无异常描述
+2013-09-22 09:23:03 | [15] | WARN  | LogSystem | warn | API响应-时间：2013/9/22 9:23:03 | 无异常描述
+2013-09-22 09:32:49 | [23] | WARN  | LogSystem | warn | API调用-时间：2013/9/22 9:32:49 IP：::1 UserAgent：Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0) | 无异常描述
+2013-09-22 09:32:49 | [23] | WARN  | LogSystem | warn | 调用GetData-时间：2013/9/22 9:32:49 | 无异常描述
+2013-09-22 09:33:10 | [23] | WARN  | LogSystem | warn | API响应-时间：2013/9/22 9:33:10 | 无异常描述
+2013-09-22 09:38:56 | [29] | WARN  | LogSystem | warn | API调用-时间：2013/9/22 9:38:56 IP：::1 UserAgent：Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0) | 无异常描述
+2013-09-22 09:38:56 | [29] | WARN  | LogSystem | warn | 调用GeSK-时间：2013/9/22 9:38:56 | 无异常描述
+2013-09-22 09:38:57 | [29] | WARN  | LogSystem | warn | API响应-时间：2013/9/22 9:38:57 | 无异常描述
+2013-09-22 09:39:00 | [29] | WARN  | LogSystem | warn | API调用-时间：2013/9/22 9:39:00 IP：::1 UserAgent：Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0) | 无异常描述
+2013-09-22 09:39:00 | [29] | WARN  | LogSystem | warn | 调用GetCityInfo-时间：2013/9/22 9:39:00 | 无异常描述
+2013-09-22 09:39:01 | [29] | WARN  | LogSystem | warn | API响应-时间：2013/9/22 9:39:01 | 无异常描述
+2013-09-22 09:39:03 | [29] | WARN  | LogSystem | warn | API调用-时间：2013/9/22 9:39:03 IP：::1 UserAgent：Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0) | 无异常描述
+2013-09-22 09:39:03 | [29] | WARN  | LogSystem | warn | 调用GetData-时间：2013/9/22 9:39:03 | 无异常描述
+2013-09-22 09:39:25 | [29] | WARN  | LogSystem | warn | API响应-时间：2013/9/22 9:39:25 | 无异常描述
+2013-09-22 09:41:30 | [13] | WARN  | LogSystem | warn | API调用-时间：2013/9/22 9:41:30 IP：::1 UserAgent：Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0) | 无异常描述
+2013-09-22 09:41:30 | [13] | WARN  | LogSystem | warn | 调用GeSK-时间：2013/9/22 9:41:30 | 无异常描述
+2013-09-22 09:41:30 | [13] | WARN  | LogSystem | warn | API响应-时间：2013/9/22 9:41:30 | 无异常描述
+2013-09-22 09:41:37 | [15] | WARN  | LogSystem | warn | API调用-时间：2013/9/22 9:41:37 IP：::1 UserAgent：Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0) | 无异常描述
+2013-09-22 09:41:37 | [15] | WARN  | LogSystem | warn | 调用GetCityInfo-时间：2013/9/22 9:41:37 | 无异常描述
+2013-09-22 09:41:37 | [15] | WARN  | LogSystem | warn | API响应-时间：2013/9/22 9:41:37 | 无异常描述
+2013-09-22 09:41:41 | [29] | WARN  | LogSystem | warn | API调用-时间：2013/9/22 9:41:41 IP：::1 UserAgent：Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0) | 无异常描述
+2013-09-22 09:41:41 | [29] | WARN  | LogSystem | warn | 调用GetCityInfo-时间：2013/9/22 9:41:41 | 无异常描述
+2013-09-22 09:41:41 | [29] | WARN  | LogSystem | warn | API响应-时间：2013/9/22 9:41:41 | 无异常描述
+2013-09-22 15:22:34 | [101] | WARN  | LogSystem | warn | API调用-时间：2013/9/22 15:22:34 IP：::1 UserAgent：Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0) | 无异常描述
+2013-09-22 15:22:34 | [101] | WARN  | LogSystem | warn | 调用GetData-时间：2013/9/22 15:22:34 | 无异常描述
+2013-09-22 15:22:56 | [101] | WARN  | LogSystem | warn | 系统错误 | 未将对象引用设置到对象的实例。
+2013-09-22 15:22:56 | [101] | WARN  | LogSystem | warn | Host : localhost
+Port : 15726
+User Host Address : ::1
+User Agent : Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0)
+Url : http://localhost:15726/api.ashx?method=data&type=location&value=,
+Raw Url : /api.ashx?method=data&type=location&value=,
+Message : 未将对象引用设置到对象的实例。
+Source : ComLib
+StackTrace :    在 ComLib.HttpHelper.GetHttpRequestData(HttpItem objhttpitem) 位置 E:\开发工程\weather\Dependencies\Common\HttpHelper\HttpHelper.cs:行号 104
+   在 ComLib.HttpHelper.GetHtml(HttpItem objhttpItem) 位置 E:\开发工程\weather\Dependencies\Common\HttpHelper\HttpHelper.cs:行号 295
+   在 weather.Weather.GetData(String id, String name, String latitude, String longitude) 位置 E:\开发工程\weather\weather\Weather.Common.cs:行号 30
+   在 weather.API.ProcessRequest(HttpContext context) 位置 E:\开发工程\weather\weather\API.ashx.cs:行号 47
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+TargetSite : ComLib.HttpResult GetHttpRequestData(ComLib.HttpItem)
+ | 无异常描述
+2013-09-22 15:22:56 | [101] | WARN  | LogSystem | warn | 程序错误 | 无异常描述
+2013-09-22 15:23:02 | [100] | WARN  | LogSystem | warn | API调用-时间：2013/9/22 15:23:02 IP：::1 UserAgent：Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0) | 无异常描述
+2013-09-22 15:23:02 | [100] | WARN  | LogSystem | warn | 调用GeSK-时间：2013/9/22 15:23:02 | 无异常描述
+2013-09-22 15:23:03 | [100] | WARN  | LogSystem | warn | API响应-时间：2013/9/22 15:23:03 | 无异常描述

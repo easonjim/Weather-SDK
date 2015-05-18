@@ -1,0 +1,98 @@
+2013-09-21 19:46:35 | [11] | WARN  | LogSystem | warn | 系统错误 | 引发类型为“System.Web.HttpUnhandledException”的异常。
+2013-09-21 19:46:35 | [11] | WARN  | LogSystem | warn | Host : localhost
+Port : 15726
+User Host Address : ::1
+User Agent : Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0)
+Url : http://localhost:15726/Default.aspx
+Raw Url : /Default.aspx
+Message : 引发类型为“System.Web.HttpUnhandledException”的异常。
+Source : System.Web
+StackTrace :    在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.default_aspx.ProcessRequest(HttpContext context) 位置 c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\487deaba\a657cc7e\App_Web_gphxodt5.0.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+TargetSite : Boolean HandleError(System.Exception)
+Message : 未将对象引用设置到对象的实例。
+Source : ComLib
+StackTrace :    在 ComLib.HttpHelper.GetHttpRequestData(HttpItem objhttpitem) 位置 E:\开发工程\weather\Dependencies\Common\HttpHelper\HttpHelper.cs:行号 104
+   在 ComLib.HttpHelper.GetHtml(HttpItem objhttpItem) 位置 E:\开发工程\weather\Dependencies\Common\HttpHelper\HttpHelper.cs:行号 295
+   在 weather.BaiduMap.GetCity(String latitude, String longitude) 位置 E:\开发工程\weather\weather\BaiduMap.Common.cs:行号 23
+   在 weather.Weather.GetSK(String latitude, String longitude) 位置 E:\开发工程\weather\weather\Weather.Common.cs:行号 45
+   在 weather.Default.Page_Load(Object sender, EventArgs e) 位置 E:\开发工程\weather\weather\Default.aspx.cs:行号 15
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+TargetSite : ComLib.HttpResult GetHttpRequestData(ComLib.HttpItem)
+ | 无异常描述
+2013-09-21 19:46:35 | [11] | WARN  | LogSystem | warn | 程序错误 | 无异常描述
+2013-09-21 21:44:15 | [43] | WARN  | LogSystem | warn | 系统错误 | 文件“/api.aspx”不存在。
+2013-09-21 21:44:15 | [43] | WARN  | LogSystem | warn | Host : localhost
+Port : 15726
+User Host Address : ::1
+User Agent : Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0)
+Url : http://localhost:15726/api.aspx?method=Data&type=location&value=,
+Raw Url : /api.aspx?method=Data&type=location&value=,
+Message : 文件“/api.aspx”不存在。
+Source : System.Web
+StackTrace :    在 System.Web.UI.Util.CheckVirtualFileExists(VirtualPath virtualPath)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   在 System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   在 System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   在 System.Web.UI.PageHandlerFactory.System.Web.IHttpHandlerFactory2.GetHandler(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   在 System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, VirtualPath path, String pathTranslated, Boolean useAppConfig)
+   在 System.Web.HttpApplication.MapHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+TargetSite : Void CheckVirtualFileExists(System.Web.VirtualPath)
+ | 无异常描述
+2013-09-21 21:44:15 | [43] | WARN  | LogSystem | warn | 程序错误 | 无异常描述
+2013-09-21 21:58:31 | [103] | WARN  | LogSystem | warn | API调用-时间：2013/9/21 21:58:31 IP：::1 UserAgent：Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0) | 无异常描述
+2013-09-21 21:58:31 | [103] | WARN  | LogSystem | warn | API响应-时间：2013/9/21 21:58:31 | 无异常描述
+2013-09-21 22:04:49 | [104] | WARN  | LogSystem | warn | API调用-时间：2013/9/21 22:04:49 IP：::1 UserAgent：Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0) | 无异常描述
+2013-09-21 22:04:49 | [104] | WARN  | LogSystem | warn | 调用GetData-时间：2013/9/21 22:04:49 | 无异常描述
+2013-09-21 22:04:49 | [104] | WARN  | LogSystem | warn | API响应-时间：2013/9/21 22:04:49 | 无异常描述
+2013-09-21 22:05:19 | [18] | WARN  | LogSystem | warn | API调用-时间：2013/9/21 22:05:19 IP：::1 UserAgent：Fiddler | 无异常描述
+2013-09-21 22:05:19 | [18] | WARN  | LogSystem | warn | 调用GetData-时间：2013/9/21 22:05:19 | 无异常描述
+2013-09-21 22:05:19 | [18] | WARN  | LogSystem | warn | API响应-时间：2013/9/21 22:05:19 | 无异常描述
+2013-09-21 22:17:46 | [103] | WARN  | LogSystem | warn | API调用-时间：2013/9/21 22:17:46 IP：::1 UserAgent：Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0) | 无异常描述
+2013-09-21 22:17:46 | [103] | WARN  | LogSystem | warn | API响应-时间：2013/9/21 22:17:46 | 无异常描述
+2013-09-21 22:17:54 | [31] | WARN  | LogSystem | warn | API调用-时间：2013/9/21 22:17:54 IP：::1 UserAgent：Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0) | 无异常描述
+2013-09-21 22:17:54 | [31] | WARN  | LogSystem | warn | 调用GetData-时间：2013/9/21 22:17:54 | 无异常描述
+2013-09-21 22:17:54 | [31] | WARN  | LogSystem | warn | API响应-时间：2013/9/21 22:17:54 | 无异常描述
+2013-09-21 22:18:57 | [31] | WARN  | LogSystem | warn | API调用-时间：2013/9/21 22:18:57 IP：::1 UserAgent：Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0) | 无异常描述
+2013-09-21 22:18:57 | [31] | WARN  | LogSystem | warn | API响应-时间：2013/9/21 22:18:57 | 无异常描述
+2013-09-21 22:19:06 | [103] | WARN  | LogSystem | warn | API调用-时间：2013/9/21 22:19:06 IP：::1 UserAgent：Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0) | 无异常描述
+2013-09-21 22:19:06 | [103] | WARN  | LogSystem | warn | API响应-时间：2013/9/21 22:19:06 | 无异常描述
+2013-09-21 22:19:10 | [31] | WARN  | LogSystem | warn | API调用-时间：2013/9/21 22:19:10 IP：::1 UserAgent：Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0) | 无异常描述
+2013-09-21 22:19:10 | [31] | WARN  | LogSystem | warn | API响应-时间：2013/9/21 22:19:10 | 无异常描述
+2013-09-21 22:19:16 | [103] | WARN  | LogSystem | warn | API调用-时间：2013/9/21 22:19:16 IP：::1 UserAgent：Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0) | 无异常描述
+2013-09-21 22:19:16 | [103] | WARN  | LogSystem | warn | API响应-时间：2013/9/21 22:19:16 | 无异常描述
+2013-09-21 22:20:16 | [31] | WARN  | LogSystem | warn | API调用-时间：2013/9/21 22:20:16 IP：::1 UserAgent：Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0) | 无异常描述
+2013-09-21 22:22:14 | [31] | WARN  | LogSystem | warn | API响应-时间：2013/9/21 22:22:14 | 无异常描述
+2013-09-21 22:23:32 | [31] | WARN  | LogSystem | warn | API调用-时间：2013/9/21 22:23:32 IP：::1 UserAgent：Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0) | 无异常描述
+2013-09-21 22:23:32 | [31] | WARN  | LogSystem | warn | API响应-时间：2013/9/21 22:23:32 | 无异常描述
+2013-09-21 22:23:36 | [31] | WARN  | LogSystem | warn | API调用-时间：2013/9/21 22:23:36 IP：::1 UserAgent：Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0) | 无异常描述
+2013-09-21 22:25:42 | [31] | WARN  | LogSystem | warn | API响应-时间：2013/9/21 22:25:42 | 无异常描述
+2013-09-21 22:26:04 | [103] | WARN  | LogSystem | warn | API调用-时间：2013/9/21 22:26:04 IP：::1 UserAgent：Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0) | 无异常描述
+2013-09-21 22:26:04 | [103] | WARN  | LogSystem | warn | API响应-时间：2013/9/21 22:26:04 | 无异常描述
+2013-09-21 22:26:08 | [103] | WARN  | LogSystem | warn | API调用-时间：2013/9/21 22:26:08 IP：::1 UserAgent：Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0) | 无异常描述
+2013-09-21 22:26:08 | [103] | WARN  | LogSystem | warn | API响应-时间：2013/9/21 22:26:08 | 无异常描述
+2013-09-21 22:39:47 | [43] | WARN  | LogSystem | warn | API调用-时间：2013/9/21 22:39:47 IP：::1 UserAgent：Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0) | 无异常描述
+2013-09-21 22:39:47 | [43] | WARN  | LogSystem | warn | 调用跳转全国雷达-时间：2013/9/21 22:39:47 | 无异常描述
+2013-09-21 22:39:58 | [43] | WARN  | LogSystem | warn | API调用-时间：2013/9/21 22:39:58 IP：::1 UserAgent：Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0) | 无异常描述
+2013-09-21 22:39:58 | [43] | WARN  | LogSystem | warn | 调用跳转全国气象公报-时间：2013/9/21 22:39:58 | 无异常描述
+2013-09-21 22:40:03 | [43] | WARN  | LogSystem | warn | API调用-时间：2013/9/21 22:40:03 IP：::1 UserAgent：Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0) | 无异常描述
+2013-09-21 22:40:03 | [43] | WARN  | LogSystem | warn | 调用跳转网页雷达-时间：2013/9/21 22:40:03 | 无异常描述
+2013-09-21 22:40:03 | [43] | WARN  | LogSystem | warn | 调用GeSK-时间：2013/9/21 22:40:03 | 无异常描述
+2013-09-21 22:40:03 | [43] | WARN  | LogSystem | warn | API响应-时间：2013/9/21 22:40:03 | 无异常描述
+2013-09-21 22:40:08 | [43] | WARN  | LogSystem | warn | API调用-时间：2013/9/21 22:40:08 IP：::1 UserAgent：Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0) | 无异常描述
+2013-09-21 22:40:08 | [43] | WARN  | LogSystem | warn | 调用跳转卫星云图-时间：2013/9/21 22:40:08 | 无异常描述
+2013-09-21 22:43:13 | [43] | WARN  | LogSystem | warn | API调用-时间：2013/9/21 22:43:13 IP：::1 UserAgent：Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0) | 无异常描述
+2013-09-21 22:43:13 | [43] | WARN  | LogSystem | warn | 调用跳转全国雷达-时间：2013/9/21 22:43:13 | 无异常描述

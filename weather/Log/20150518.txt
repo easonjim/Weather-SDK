@@ -1,0 +1,37 @@
+2015-05-18 14:52:02 | [6] | WARN  | LogSystem | warn | 系统错误 | 文件不存在。
+2015-05-18 14:52:02 | [6] | WARN  | LogSystem | warn | Host : localhost
+Port : 15726
+User Host Address : ::1
+User Agent : Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko
+Url : http://localhost:15726/favicon.ico
+Raw Url : /favicon.ico
+Message : 文件不存在。
+Source : System.Web
+StackTrace :    在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+TargetSite : System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+ | 无异常描述
+2015-05-18 14:52:02 | [6] | WARN  | LogSystem | warn | 程序错误 | 无异常描述
+2015-05-18 14:52:10 | [12] | WARN  | LogSystem | warn | API调用-时间：2015/5/18 14:52:10 IP：::1 UserAgent：Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko | 无异常描述
+2015-05-18 14:52:10 | [12] | WARN  | LogSystem | warn | 调用GetData-时间：2015/5/18 14:52:10 | 无异常描述
+2015-05-18 14:52:10 | [12] | WARN  | LogSystem | warn | API响应-时间：2015/5/18 14:52:10 | 无异常描述
+2015-05-18 14:52:10 | [5] | WARN  | LogSystem | warn | 系统错误 | 文件不存在。
+2015-05-18 14:52:10 | [5] | WARN  | LogSystem | warn | Host : localhost
+Port : 15726
+User Host Address : ::1
+User Agent : Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko
+Url : http://localhost:15726/favicon.ico
+Raw Url : /favicon.ico
+Message : 文件不存在。
+Source : System.Web
+StackTrace :    在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+TargetSite : System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+ | 无异常描述
+2015-05-18 14:52:10 | [5] | WARN  | LogSystem | warn | 程序错误 | 无异常描述

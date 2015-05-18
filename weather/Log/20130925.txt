@@ -1,0 +1,6 @@
+2013-09-25 08:36:18 | [11] | WARN  | LogSystem | warn | API调用-时间：2013/9/25 8:36:17 IP：::1 UserAgent：Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0) | 无异常描述
+2013-09-25 08:36:18 | [11] | WARN  | LogSystem | warn | 调用跳转全国雷达-时间：2013/9/25 8:36:18 | 无异常描述
+2013-09-25 08:36:18 | [11] | WARN  | LogSystem | warn | API响应-时间：2013/9/25 8:36:18 | 无异常描述
+2013-09-25 08:36:26 | [5] | WARN  | LogSystem | warn | API调用-时间：2013/9/25 8:36:26 IP：::1 UserAgent：Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0) | 无异常描述
+2013-09-25 08:36:26 | [5] | WARN  | LogSystem | warn | 调用跳转实时天气详情-时间：2013/9/25 8:36:26 | 无异常描述
+2013-09-25 08:36:26 | [5] | WARN  | LogSystem | warn | API响应-时间：2013/9/25 8:36:26 | 无异常描述
